@@ -29,7 +29,8 @@ const mainWindow = new BrowserWindow({
 		height: 700,
 		x: 200,
 		y: 200
-	}
+	},
+	renderer: "cef"
 });
 
 // Quit the app when the main window is closed
