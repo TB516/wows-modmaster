@@ -1,6 +1,6 @@
 import { createRouter } from 'sv-router';
-import Home from './pages/Home.svelte';
+import App from './pages/App.svelte';
 
 export const { p, navigate, isActive, route } = createRouter({
-	'/': Home
+	'/': App
 });
