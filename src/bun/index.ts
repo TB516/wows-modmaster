@@ -30,7 +30,7 @@ const mainWindow = new BrowserWindow({
 		x: 200,
 		y: 200
 	},
-	renderer: "cef"
+	renderer: 'cef'
 });
 
 // Quit the app when the main window is closed
