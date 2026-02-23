@@ -1,5 +1,7 @@
-<script lang="ts"></script>
+<script lang="ts">
+	import { Router } from 'sv-router';
+	import './router';
+	import './reset.css';
+</script>
 
-<main></main>
-
-<style></style>
+<Router base="#" />

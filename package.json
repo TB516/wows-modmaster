@@ -11,7 +11,8 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
-		"electrobun": "1.13.1"
+		"electrobun": "1.13.1",
+		"sv-router": "^0.14.0"
 	},
 	"devDependencies": {
 		"@sveltejs/vite-plugin-svelte": "^5.0.1",

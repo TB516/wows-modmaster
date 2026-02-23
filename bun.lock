@@ -6,6 +6,7 @@
       "name": "electrobun-svelte",
       "dependencies": {
         "electrobun": "1.13.1",
+        "sv-router": "^0.14.0",
       },
       "devDependencies": {
         "@sveltejs/vite-plugin-svelte": "^5.0.1",
@@ -505,6 +506,8 @@
     "strip-ansi-cjs": ["strip-ansi@6.0.1", "", { "dependencies": { "ansi-regex": "^5.0.1" } }, "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="],
 
     "supports-color": ["supports-color@8.1.1", "", { "dependencies": { "has-flag": "^4.0.0" } }, "sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q=="],
+
+    "sv-router": ["sv-router@0.14.0", "", { "dependencies": { "esm-env": "^1.2.2" }, "peerDependencies": { "svelte": "^5" }, "bin": { "sv-router": "src/cli/index.js" } }, "sha512-zzi2k2ZG2UbTgBOjYmXWMv3XdXFCBpABD7vUsoL2XLvlnannXXLvieY9wGKMIvHIeocXOq4l47PXYtHPI23qgA=="],
 
     "svelte": ["svelte@5.46.1", "", { "dependencies": { "@jridgewell/remapping": "^2.3.4", "@jridgewell/sourcemap-codec": "^1.5.0", "@sveltejs/acorn-typescript": "^1.0.5", "@types/estree": "^1.0.5", "acorn": "^8.12.1", "aria-query": "^5.3.1", "axobject-query": "^4.1.0", "clsx": "^2.1.1", "devalue": "^5.5.0", "esm-env": "^1.2.1", "esrap": "^2.2.1", "is-reference": "^3.0.3", "locate-character": "^3.0.0", "magic-string": "^0.30.11", "zimmerframe": "^1.1.2" } }, "sha512-ynjfCHD3nP2el70kN5Pmg37sSi0EjOm9FgHYQdC4giWG/hzO3AatzXXJJgP305uIhGQxSufJLuYWtkY8uK/8RA=="],
 
