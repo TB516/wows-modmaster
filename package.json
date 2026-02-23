@@ -1,8 +1,8 @@
 {
-	"name": "electrobun-svelte",
+	"name": "wows-modmaster",
 	"version": "1.0.0",
 	"type": "module",
-	"description": "Electrobun app with Svelte and Vite HMR",
+	"description": "Mod manager for World of Warships",
 	"scripts": {
 		"dev": "concurrently \"vite\" \"electrobun build && electrobun dev\"",
 		"build": "vite build && electrobun build",

@@ -2,8 +2,8 @@ import type { ElectrobunConfig } from 'electrobun';
 
 export default {
 	app: {
-		name: 'svelte-app',
-		identifier: 'svelteapp.electrobun.dev',
+		name: 'WoWs Modmaster',
+		identifier: 'io.github.TB516.wowsmodmaster',
 		version: '0.0.1'
 	},
 	build: {
