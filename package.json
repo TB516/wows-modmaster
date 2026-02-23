@@ -4,9 +4,9 @@
 	"type": "module",
 	"description": "Electrobun app with Svelte and Vite HMR",
 	"scripts": {
-		"dev": "concurrently \"vite --port 5173\" \"bun run build && electrobun dev\"",
+		"dev": "concurrently \"vite\" \"electrobun build && electrobun dev\"",
 		"build": "vite build && electrobun build",
-		"build:prod": "vite build && electrobun build --channel prod",
+		"build:prod": "bun run build --env=stable",
 		"lint": "eslint --fix .",
 		"format": "prettier --write ."
 	},
