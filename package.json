@@ -4,7 +4,7 @@
 	"type": "module",
 	"description": "Unofficial mod manager for World of Warships",
 	"scripts": {
-		"dev": "concurrently \"vite\" \"electrobun build && electrobun dev\"",
+		"dev": "concurrently \"vite\" \"electrobun build && electrobun dev\" --kill-others",
 		"build": "vite build && electrobun build",
 		"build:prod": "bun run build --env=stable",
 		"lint": "eslint --fix .",
