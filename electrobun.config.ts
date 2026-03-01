@@ -2,8 +2,8 @@ import type { ElectrobunConfig } from 'electrobun';
 
 export default {
 	app: {
-		name: 'WoWs Modmaster',
-		identifier: 'io.github.TB516.wowsmodmaster',
+		name: 'Dockyard Mod Manager',
+		identifier: 'io.github.dockyardmods.DockyardModManager',
 		version: '0.0.1'
 	},
 	build: {
