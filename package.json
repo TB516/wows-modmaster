@@ -1,8 +1,8 @@
 {
-	"name": "wows-modmaster",
+	"name": "dockyard-mod-manager",
 	"version": "1.0.0",
 	"type": "module",
-	"description": "Mod manager for World of Warships",
+	"description": "Unofficial mod manager for World of Warships",
 	"scripts": {
 		"dev": "concurrently \"vite\" \"electrobun build && electrobun dev\"",
 		"build": "vite build && electrobun build",
